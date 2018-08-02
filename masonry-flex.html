@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        main {
+            /* width: 90%; */
+            margin: 0 auto;
+            display: flex;   
+            flex-direction: column;
+            flex-wrap: wrap;
+            max-height: 80vh;
+        }
+
+        .box {
+            overflow: hidden;
+            flex: auto;
+            line-height: 0;
+            border: 1px solid red;
+            margin: 1em;
+        }
+
+        .box img {
+            width: 100%;
+        }
+
+        p {
+            line-height: 1.2;
+        }
+
+        @media (max-width: 992px) {
+            main {
+                max-height: 100vh;
+            }
+        }
+
+        @media (max-width: 578px) {
+            main {
+                display: block;
+                max-height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>MASONRY LAYOUT</h1>
+    <main>
+        <div class="box">
+            <img src="img/img-1.png" alt="">
+        </div>
+        <div class="box">
+            <img src="img/img-2.png" alt="">
+        </div>
+        <div class="box">
+            <img src="img/img-3.png" alt="">
+        </div>
+        <div class="box">
+            <img src="img/img-4.png" alt="">
+        </div>
+        <div class="box">
+            <img src="img/img-5.png" alt="">
+        </div>
+        <div class="box">
+            <img src="img/img-6.png" alt="">
+        </div>
+        <div class="box">
+            <img src="img/img-7.png" alt="">
+        </div>
+        <div class="box">
+            <img src="img/img-8.png" alt="">
+        </div>
+        <div class="box">
+            <img src="img/img-9.png" alt="">
+        </div>
+        <div class="box">
+            <img src="img/img-10.png" alt="">
+        </div>
+        <div class="box">
+            <img src="img/img-11.png" alt="">
+        </div>
+        <div class="box">
+            <img src="img/img-12.png" alt="">
+        </div>
+        <div class="box">
+            <img src="img/img-13.png" alt="">
+        </div>
+        <div class="box">
+            <img src="img/img-14.png" alt="">
+        </div>
+    </main>
+</body>
+</html>
